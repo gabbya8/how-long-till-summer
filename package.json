@@ -2,7 +2,7 @@
   "name": "how-long-till-summer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gabbya8.github.io/how-long-till-summer",
+  "homepage": "https://howlongtillsummer.com",
   "dependencies": {
     "cra-template": "1.2.0",
     "framer-motion": "^12.0.6",
