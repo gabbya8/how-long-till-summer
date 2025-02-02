@@ -124,8 +124,8 @@
   
   .cloud {
     position: absolute;
-    top: 15%;
-    left: 10%;
+    top: 10%;
+    left: 5%;
     width: 200px;
     height: 150px;
     background: url('../assets/cloud.svg') no-repeat center/contain;
@@ -133,8 +133,8 @@
 
   .sun-cloud {
     position: absolute;
-    top: 7%;
-    right: 10%;
+    top: 5%;
+    right: 5%;
     width: 200px;
     height: 200px;
     background: url('../assets/sun-cloud.svg') no-repeat center/contain;
