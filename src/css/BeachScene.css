@@ -150,11 +150,42 @@
     background-size: 10px 10px;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 900px) {
     .timer {
         font-size: 2.4rem; /* Smaller font size for Clock */
         top: 25%;
     }
+    .cloud {
+      top: 0;
+      left: 0;
+    }
+
+    .sun-cloud {
+      top: 0;
+      right: 0;
+    }
+
+    .palm-tree {
+      bottom: 5%;
+      height: 35%;
+      left: 30%;
+    }
+
+    .coconut {
+      height: 70px;
+      width: 70px;
+    }
+
+    .sand {
+      height: 150px;
+    }
+
+    .tree-leaves {
+      right: 5px;
+      bottom: 80px;
+    }
 
 }
+
+
   
