@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const Clock = () => {
     const calculateTimeLeft = () => {
-        const summerDate = new Date('June 21, 2025 00:00:00');
+        const summerDate = new Date('June 21, 2026 00:00:00');
         const now = new Date();
         const difference = summerDate - now;
 

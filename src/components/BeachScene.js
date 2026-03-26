@@ -10,10 +10,6 @@ const BeachScene = () => {
     <div className="scene">
       <div className="cloud"></div>
       <div className="sun-cloud"></div>
-      
-      
-      
-      
       <motion.div 
         className="waves"
         animate={{ x: [-10, 10, -10] }}
@@ -27,6 +23,7 @@ const BeachScene = () => {
         animate={{ x: ["100%", "0%"] }}
         transition={{ duration: 5, repeat: Infinity, ease: "linear" }}
       />
+      <div className="timer"><Clock></Clock></div>
       <MusicButton></MusicButton>
     </div>
   );
